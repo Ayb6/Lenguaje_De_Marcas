@@ -1,0 +1,16 @@
+(:extraer el peso del elemento cuyo codigo sea AAA-111:)
+(:/inventario/producto[@codigo=" AAA-111"]:)
+
+(:Extraer el nombre de los productos que hayan puesto en gramos:)
+
+(:/inventario/producto[peso/@unidad="g"]/nombre:)
+
+(:Extraer el codigo de los productos cuyo nombre sea monitor:)
+
+(:/inventario/producto [nombre =" Monitor "]/@codigo:)
+
+(:Extraer el codigo de los productos que pesen mas de un cuarto de kilo:)
+
+/inventario/producto [(peso>=250 and peso/@unidad ="g")
+or
+(peso>= 0.25 and peso/@unidad ="Kg")]/@codigo

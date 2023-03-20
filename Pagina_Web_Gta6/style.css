@@ -1,0 +1,302 @@
+@font-face {
+    font-family: "TP";
+    src: url(./pricedown\ bl.otf);
+}
+
+@font-face {
+    font-family: "JP";
+    src: url(./Oswald-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url(./vice.city.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: 40%;
+    padding: 0%;
+
+}
+
+.nav {
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    right: 0%;
+    top: 0%;
+    border-radius: 1rem;
+    float: inline-start;
+    background-color: rgba(18, 44, 129, 0.311);
+}
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.7% 1%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "TP";
+    border-radius: 1rem;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.nav img {
+    padding: 0.5% 2%
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 1rem;
+    transition-duration: 2s;
+}
+
+.nav a.active {
+    background-color: rgba(3, 18, 67, 0.311);
+    color: white;
+    border-radius: 1rem;
+    margin-right: 1%;
+}
+
+.texto1 {
+    top: 80px;
+    width: 98%;
+    height: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    background-size: cover;
+    float: inline-start;
+}
+
+.texto1 img {
+    padding: 18% 38%;
+    height: 45%;
+    width: 25%;
+}
+
+
+.texto1 button {
+    background-color: rgb(213, 177, 213);
+    position: absolute;
+    top: 120px;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    width: 15%;
+    height: 11%;
+    right: 45%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+
+.texto1 button a {
+    text-decoration: none;
+    font-size: 250%;
+    color: rgb(181, 40, 113);
+    font-family: "TP";
+}
+
+.texto1 button:hover {
+    background-color: rgb(50, 10, 50);
+    transition-duration: 1s;
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.texto2 {
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    top: 750px;
+    background: radial-gradient(rgba(0, 0, 0, 0.619), rgba(86, 87, 97, 0.642));
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    color: white;
+    float: inline-end;
+    display: flex;
+}
+
+.texto2 h2 {
+    margin-left: 5%;
+    margin-top: 25%;
+    margin-right: 2%;
+    font-size: 240%;
+    font-family: "JP";
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.texto2 p {
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-right: 2%;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 140%;
+    letter-spacing: 1%;
+    word-spacing: 1%;
+    line-height: 150%;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.texto2 img {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    width: 55%;
+    border-radius: 2rem;
+}
+
+.lista {
+    margin-left: 15%;
+    width: 70%;
+    background: linear-gradient(rgba(211, 211, 211, 0.2), #2543a43a);
+    border-radius: 2rem;
+    margin-top: 5%;
+}
+
+.lista h2 {
+    font-family: "TP";
+    margin-left: 5.5%;
+    color: #031243
+}
+.lista h2::before {
+    content: "C";
+    font-family: "TP";
+    color: #031243;
+    font-size: 300%;
+}
+
+.lista1 li {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-family: "TP";
+    font-size: 150%;    
+}
+
+li:hover {
+    background-color: rgba(34, 39, 151, 0.408);
+    border-radius: 2rem;
+}
+
+li:first-child {
+    color: rgb(160, 156, 156);
+    font-family: "TP";
+    margin-top: 2%;
+}
+
+li:last-child {
+    color: rgb(160, 156, 156);
+    font-family: "TP";
+}
+
+li:nth-child(2) {
+    color: rgb(160, 156, 156);
+    font-family: "TP";
+}
+
+li:nth-child(3) {
+    color: rgb(160, 156, 156);
+    font-family: "TP";
+}
+
+li:nth-child(4) {
+    color: rgb(160, 156, 156);
+    font-family: "TP";
+}
+
+li:nth-child(5) {
+    color: rgb(160, 156, 156);
+    font-family: "TP";
+}
+
+.tabla1 {
+    margin-top: 5%;
+    border-bottom: 5%;
+}
+
+.tabla1 table {
+    border: 4px solid rgb(38, 6, 163);
+    border-bottom: 4px solid rgb(38, 6, 163)blue;
+    text-align: center;
+    width: 90%;
+    height: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    empty-cells: hide;
+    border-radius: 1rem;
+}
+
+.tabla1 table th{
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.tabla1 caption {
+    caption-side: bottom;
+    background-color: rgba(39, 75, 194, 0.462);
+    color: rgb(247, 247, 247);
+    border-radius: 2rem;
+}
+
+.tabla1 tbody tr:nth-child(odd+1) td {
+    background-color: white;
+    border-radius: 2rem;
+    border-radius: 2rem;
+}
+
+.tabla1 tr:nth-child(even) td {
+    background-color: rgb(58, 54, 162);
+    color: rgb(114, 114, 118);
+    border-radius: 2rem;
+}
+
+.tabla1 tr:nth-child(odd) td {
+    background-color: lightgray;
+    color: rgb(35, 32, 32);
+    border-radius: 2rem;
+}
+
+.tabla1 thead tr:first-child {
+    background-color: rgba(150, 66, 195, 0.519);
+    color: rgb(16, 29, 125);
+    border-radius: 2rem;
+}
+
+
+.volver a {
+    padding: 0% 95%;
+    text-decoration: none;
+    color: rgb(3, 18, 67);
+    font-family: "TP";
+    font-size: 25px;
+    background-color: #ddd;
+    border-radius: 2rem;
+    padding: 10px;
+}
+
+.volver {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+
+.volver a:hover {
+    background-color: rgba(139, 157, 215, 0.863);
+    transition-duration: 2s;
+}
+
+.volver a:active {
+    background-color: white;
+}

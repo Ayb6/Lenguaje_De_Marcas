@@ -1,0 +1,143 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.contenedor1 {
+    margin: 2%;
+}
+
+.titulo1 {
+    background-color: aqua;
+    border: solid 4px blue;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.tabla1 table {
+    border: 4px solid gray;
+    border-bottom: 4px solid blue;
+    text-align: center;
+    width: 90%;
+    height: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    empty-cells: hide;
+}
+
+.tabla1 caption {
+    caption-side: bottom;
+    background-color: lightblue;
+    color: rgb(58, 58, 236);
+}
+
+.tabla1 tbody tr:nth-child(odd+1) td {
+    background-color: white;
+}
+
+.tabla1 tr:nth-child(even) td {
+    background-color: lightblue;
+    color: rgb(6, 124, 163);
+}
+
+.tabla1 tr:nth-child(odd) td {
+    background-color: lightgray;
+    color: rgb(85, 82, 82);
+}
+
+.tabla1 thead tr:first-child {
+    background-color: rgb(79, 153, 237);
+    color: rgb(19, 39, 184);
+}
+
+.titulo2 {
+    color: rgb(73, 191, 230);
+    margin-left: 5%;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(73, 191, 230);
+    text-decoration-style: dashed;
+}
+
+.lista1 {
+    background-color: lightblue;
+    border: 4px solid gray;
+    border-bottom: 4px solid blue;
+    margin-bottom: 2%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.lista1 h4, p {
+    color: gray;
+    margin-left: 2%;
+}
+
+.lista1 a {
+    color: rgb(73, 191, 230);
+}
+
+.lista1 a:hover {
+    background-color: rgb(63, 122, 142);
+}
+.lista1 a:focus {
+    background-color: red;
+}
+
+
+.tabla2 table {
+    border: 4px solid gray;
+    border-bottom: 4px solid blue;
+    border-right: 4px solid blue;
+    text-align: center;
+    width: 90%;
+    height: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    table-layout: fixed;
+}
+
+.tabla2 caption {
+    color: rgb(73, 191, 230);
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+.tabla2 thead {
+    background-color: rgb(160, 215, 233);
+    color: rgb(73, 191, 230);
+}
+
+.tabla2 tr:nth-child(even) {
+    background-color: lightblue;
+    color: gray;
+}
+
+.tabla2 tbody tr:nth-child(odd) {
+    background-color: lightgray;
+    color: gray;
+}
+
+.tabla2 tbody td:hover {
+    background-color: bisque;
+}
+.tabla1 tbody td:hover {
+    background-color:cadetblue;
+}
+
+.consideraciones {
+    background-color: lightblue;
+    border: solid 4px gray;
+    border-bottom: solid 4px blue;
+    border-right: solid 4px blue;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    line-height: 1.5rem;
+}
+
+.consideraciones ol, li {
+    color: gray;
+}

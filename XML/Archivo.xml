@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos.css" type="text/css"?>
+
+<!DOCTYPE biblioteca SYSTEM "libro.dtd">
+
+<biblioteca ciudad="Málaga">
+    <libro formato="tapa dura">
+        <titulo subtitulo="De medac">El farmacéutico</titulo>
+        <autor>Juanma</autor>
+        <paginas>50</paginas>
+        <editorial>SM</editorial>
+    </libro>
+    <libro formato="tapa blanda">
+        <titulo>Von Neuman</titulo>
+        <autor>Salvador</autor>
+        <paginas>10</paginas>
+        <categoria>Accion</categoria>
+        <categoria>Medicina</categoria> 
+    </libro>
+</biblioteca>

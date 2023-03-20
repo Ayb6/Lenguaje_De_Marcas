@@ -1,0 +1,88 @@
+a:link {
+    color: green;
+}
+
+a:focus {
+    background-color: red;
+}
+
+a:active {
+    color: orange;
+}
+
+a:visited {
+    color: rgb(141, 11, 141);
+}
+
+li:hover {
+    background-color: yellowgreen;
+}
+
+li:first-child {
+    color: blue;
+}
+
+li:last-child {
+    color: red;
+}
+
+li:nth-child(2) {
+    background-color: green;
+    color:yellow;
+}
+
+li:nth-child(3) {
+    color: blueviolet;
+}
+
+.uno {
+    color: red;
+}
+
+.lista1 {
+    list-style-image: url("./icons8-twitter-16.png");
+}
+
+.p3::first-letter{
+    font-size: 2rem;
+}
+.p3::first-line{
+    text-transform: uppercase;
+}
+
+.p3::before {
+    content: "Inicio: ";
+}
+
+.p3::after{
+    content: " Fin ";
+}
+
+.Ejercicioclase p::before {
+    content: "Sinopsis ";
+    background-color: yellow;
+    color: red;
+}
+
+.Ejercicioclase::first-letter{
+    font-size: 2rem;
+}
+.Ejercicioclase::first-line{
+    text-transform: uppercase;
+}
+.Ejercicioclase {
+    background-color: grey;
+}
+
+.Ejercicioclase{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tabla2 {
+    caption-side: bottom;
+}
+
+caption {
+    background-color: yellow;
+}
+

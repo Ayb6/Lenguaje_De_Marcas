@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos.css" type="text/css"?>
+<playstore> <!-- Hay uno o mas videojugos-->
+    <videojuego consola="ps4"> <!-- Atributo obligatorio-->
+        <titulo>The last of us</titulo>
+        <precio>39.99€</precio>
+        <pegi>18</pegi>
+        <genero>Acción</genero> <!-- Hay cero o mas generos-->
+        <genero>Survival</genero>
+    </videojuego>
+    <videojuego consola="ps5">
+        <titulo>Grand theft auto 7</titulo>
+        <precio descuento="20%" >150.99€</precio> <!-- Atributo descuento es opcional-->
+        <pegi>24</pegi>
+        <genero>Misterio</genero>
+        <descripcion>Este juego es de superviviencia</descripcion> <!-- La descripcion es opcional--> 
+    </videojuego>
+</playstore>
